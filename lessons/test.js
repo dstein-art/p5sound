@@ -1,8 +1,8 @@
 function setup() {
-    createCanvas(400,400);
+    createCanvas(100,100);
 }
 
 function draw() {
     background(220);
-    text("This is a test",20,200);
+    text("This is a test",15,50);
 }
