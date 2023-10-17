@@ -1,8 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: #DDD; 
 }
-
 canvas {
   display: block;
 }
@@ -10,30 +10,33 @@ canvas {
 .Parent { 
   display: flex; 
   flex-direction: row; 
+  background-color: #DDD;   
 } 
 .child1 { 
-  width: 200px; 
-  background-color: rgb(189, 197, 189); 
+  width: 180px; 
+  background-color: #DDD; 
   text-align: right; 
   color: rgb(20, 20, 20); 
 } 
 .child2 { 
-  width: 70%; 
+  width: 100%; 
+  margin: 40px;
+  background-color: #DDD;
   color: rgb(20, 20, 20); 
 } 
 .child3 { 
   width: 100px; 
-  background-color: rgb(189, 197, 189); 
+  background-color: #DDD; 
   text-align: right; 
   color: rgb(20, 20, 20); 
 } 
 
-
 .sidebar {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: rgb(189, 197, 189); 
+  margin: 0px;
+  padding: 0px;
+  width: 180px;
+  text-align: left;
+  background-color: #DDD; 
   position: fixed;
   height: 100%;
   overflow: auto;
