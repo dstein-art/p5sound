@@ -4,5 +4,5 @@ function setup() {
 
 function draw() {
     background(220);
-    text("This is a test",15,50);
+    text("hello world",15,50);
 }
