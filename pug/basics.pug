@@ -10,6 +10,14 @@ include _lsidebar
 h1 P5 Basics
 </div>
 
+h3 Index
+li <a href="#terminology">P5 Terminology<a>
+li <a href="#basics1">Our first P5 Program - Hello World</a>
+li <a href="#basics2">Draw Something</a>
+li <a href="#basics5">Move Mouse</a>
+
+hr
+<a id="terminology"></a>
 h3 P5 Basics - Terminology
 p You don't need anything to get started. Just a browser.
 p <b>Algorithm</b>: series of steps to solve a problem
@@ -23,16 +31,38 @@ p <b>Sketch</b> - a name commonly used to describe a P5.JS computer program. In 
 p <b><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></b> and <b><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></b> are two other commonly used technologies that contribute to making a web page work.
 
 hr
-
+a#basics1
 h3 Hello World - Our first P5 Program
 
-<script type="text/p5" src="https://raw.githubusercontent.com/dstein-art/p5sound/main/lessons/p5basics-1.js"></script>
+p Let’s start writing code
 
+p Syntax is the rules that define the structure of the computer language. 
+| In the following example, we look at the command to create a P5 canvas. 
+| Like in a painting, a canvas usually contains everything that we will
+| draw within our program, essentially the output of our program. In P5,
+| a canvas can be a size that we define. 
+| In this example, createCanvas is a function that takes two numbers as arguments, a width and a height.
+p
+p The syntax of this command involves the function name, arguments, parenthesis, commas and a semicolon.When coding, following the correct syntax of a programming language is important as it is the syntax that the computer can interpret what you are asking it to do. In this example, the parenthesis and commas separate the parameters from the function name. A semicolon indicates that the function is complete:
+
+img(src="images/basicsSyntaxCreateCanvas.png", alt="", srcset="")
+
+<script type="text/p5" src="https://raw.githubusercontent.com/dstein-art/p5sound/main/lessons/p5basics-1.js"  data-preview-width="240"></script>
+
+hr
+a#basics2
 h3 Let's Draw! 
 
-<script type="text/p5" src="https://raw.githubusercontent.com/dstein-art/p5sound/main/lessons/p5basics-2.js"></script>
+<script type="text/p5" src="https://raw.githubusercontent.com/dstein-art/p5sound/main/lessons/p5basics-2.js" data-preview-width="240"></script>
+
+hr
+a#basics5
+h3 Mouse Movement 
+
+<script type="text/p5" src="https://raw.githubusercontent.com/dstein-art/p5sound/main/lessons/p5basics-5.js" data-preview-width="240"></script>
 
 </div>
+
 
 
 include _rsidebar
